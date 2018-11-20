@@ -1,0 +1,43 @@
+{
+  "name": "coc-engine",
+  "version": "1.0.0",
+  "description": "COCJS Core Engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js",
+    "build": "node_modules/.bin/webpack",
+    "watch": "npm run build -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CocJS/coc-engine.git"
+  },
+  "keywords": [
+    "coc",
+    "javascript",
+    "cocjs"
+  ],
+  "author": "Amr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CocJS/coc-engine/issues"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2017": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "mini-css-extract-plugin": "^0.4.2",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1",
+    "vue": "^2.5.17",
+    "vue-loader": "^15.4.2",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.21"
+  },
+  "homepage": "https://github.com/CocJS/coc-engine#readme"
+}

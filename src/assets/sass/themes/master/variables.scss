@@ -1,0 +1,59 @@
+// Main Theme
+$colors-list: (
+// Primary
+"primary": #ff1744,
+"light-primary": #ff8a80,
+"primary-alpha-first": rgba(255, 23, 68, 0.2),
+"primary-alpha-half": rgba(255, 23, 68, 0.5),
+"primary-alpha-end": rgba(255, 23, 68, 0.8),
+"dark-primary":#d50000,
+
+// Secondary
+"secondary":#fff,
+// States **
+
+// Info
+"light-info": #e3f2fd,
+"info":#2196f3,
+"dark-info": #0d47a1,
+
+// Success
+"light-success": #e8f5e9,
+"success":#66bb6a,
+"dark-success": #388e3c,
+
+// Warning
+"light-warning": #ffd54f,
+"warning":#ffc107,
+"dark-warning":#ff8f00,
+
+// Error
+"light-error": #ef5350,
+"error":#f44336,
+"dark-error": #c62828,
+
+
+// Typography
+"title":#17233d,
+"content":#515a6e,
+"subColor":#808695,
+"disabled":#c5c8ce,
+
+// Bounds
+"border":#dcdee2,
+"dark-border":#9e9e9e,
+"light-border":#fafafa,
+"divider":#e8eaec,
+"white":#ffffff,
+"black": #000,
+"carbon": #2d2e2e,
+"light-background":#ffffff,
+"background":#f8f8f9
+);
+// Borders
+$border-radius: (
+	"tiny": 3px,
+	"standard": 5px,
+	"rounded": 12px,
+	"circle": 50%,
+);

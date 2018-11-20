@@ -1,0 +1,9 @@
+@import "./variables.scss";
+@each $borderRadius, $current-borderRadius in $border-radius {
+    .coc-#{$borderRadius}-border-radius { 
+        border-radius: $current-borderRadius;
+    }
+    %coc-#{$borderRadius}-border-radius { 
+        border-radius: $current-borderRadius;
+    }
+}

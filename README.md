@@ -1,6 +1,6 @@
 
 
-# COC.JS Nuxt-iView
+# COC CORE ENGINE
 <p align="center">
   <img width="200" height="200" src="https://avatars2.githubusercontent.com/u/44804821?s=400&u=c2252c15889114f4fa1128f60b3156e9f1f2131e&v=4">
 </p>
@@ -35,7 +35,7 @@ COC is using different components from many UI libraries to cover most of the UI
  - Forms -  Select
  - Forms -  Radio/Checkbox
  - Forms -  Datepicker
- - Forms -  Button
+ - Forms -  Buttons
 
 **COC Pure**
  - Coc-Axios

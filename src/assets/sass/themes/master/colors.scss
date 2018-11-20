@@ -1,0 +1,50 @@
+@import "./variables.scss";
+
+// Define Theme Colors
+@each $color, $current-color in $colors-list {
+    .coc-#{$color}-bg { 
+        background-color: $current-color;
+    }
+    .coc-#{$color}-text { 
+        color: $current-color;
+    }
+    .coc-#{$color}-border { 
+        border-color:$current-color !important;
+    }
+    .coc-#{$color}-hover-bg:hover { 
+        background-color: $current-color;
+    }
+    .coc-#{$color}-hover-text:hover { 
+        color: $current-color;
+    }
+    .coc-#{$color}-hover-border:hover { 
+        border-color: $current-color;
+    }
+
+    // Extensions
+
+    %coc-#{$color}-bg { 
+    background-color: $current-color;
+    }
+    %coc-#{$color}-text { 
+        color: $current-color;
+    }
+    %coc-#{$color}-border { 
+        border-color: $current-color !important;
+    }
+    %coc-#{$color}-hover-bg:hover { 
+        background-color: $current-color;
+    }
+    %coc-#{$color}-hover-text:hover { 
+        color: $current-color;
+    }
+    %coc-#{$color}-hover-border:hover { 
+        border-color: $current-color !important;
+    }
+    %coc-#{$color}-box-shadow { 
+        box-shadow: 0 0 0 2px $current-color;
+    }
+}
+.transparent{
+	background-color: transparent;
+}
