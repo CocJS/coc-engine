@@ -51,5 +51,5 @@ module.exports = {
 			chunkFilename: '[id].css'
 		}),
 		new VueLoaderPlugin()
-	]
+	],
 }
